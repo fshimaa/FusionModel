@@ -23,7 +23,7 @@ resnet-101-kinetics.pth: --model resnet --model_depth 101 --resnet_shortcut B
 * Download videos and train/test splits [here](http://crcv.ucf.edu/data/UCF101.php).
 * Convert from avi to jpg files using ```utils/video_jpg_ucf101_hmdb51.py```
 
-##Bash code
+##bash code
   python utils/video_jpg_ucf101_hmdb51.py avi_video_directory jpg_video_directory
 * Generate n_frames files using ```utils/n_frames_ucf101_hmdb51.py```
 
