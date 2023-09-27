@@ -11,25 +11,24 @@ This is the PyTorch code for the video-based reconition
 
 ## Pre-trained models
 
-```
+
 resnet-101-kinetics.pth: --model resnet --model_depth 101 --resnet_shortcut B
 
 that fine-tuned models on UCF-101 and HMDB-51
 ```
 
 ### preparing the model on datasets for video-based recognition 
-### UCF-101
 
+### UCF-101
+```
 * Download videos and train/test splits [here](http://crcv.ucf.edu/data/UCF101.php).
 * Convert from avi to jpg files using ```utils/video_jpg_ucf101_hmdb51.py```
 
-```bash
-python utils/video_jpg_ucf101_hmdb51.py avi_video_directory jpg_video_directory
-```
-
+##Bash code
+  python utils/video_jpg_ucf101_hmdb51.py avi_video_directory jpg_video_directory
 * Generate n_frames files using ```utils/n_frames_ucf101_hmdb51.py```
 
-```bash
+##bash code
 python utils/n_frames_ucf101_hmdb51.py jpg_video_directory
 ```
 
