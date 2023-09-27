@@ -1,4 +1,4 @@
-# update 2023/08
+
 
 Our paper "Various frameworks for integrating image and video streams for spatiotemporal information learning employing 2D-3D Residual networks for human action recognition" is under review 
 
