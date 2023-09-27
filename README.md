@@ -6,39 +6,7 @@ Our paper "Various frameworks for integrating image and video streams for spatio
 
 ## Summary
 
-This is the PyTorch code for the following papers:
-
-[
-Kensho Hara, Hirokatsu Kataoka, and Yutaka Satoh,  
-"Can Spatiotemporal 3D CNNs Retrace the History of 2D CNNs and ImageNet?",  
-Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pp. 6546-6555, 2018.
-](http://openaccess.thecvf.com/content_cvpr_2018/html/Hara_Can_Spatiotemporal_3D_CVPR_2018_paper.html)
-
-[
-Kensho Hara, Hirokatsu Kataoka, and Yutaka Satoh,  
-"Learning Spatio-Temporal Features with 3D Residual Networks for Action Recognition",  
-Proceedings of the ICCV Workshop on Action, Gesture, and Emotion Recognition, 2017.
-](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w44/Hara_Learning_Spatio-Temporal_Features_ICCV_2017_paper.pdf)
-
-This code includes training, fine-tuning and testing on Kinetics, ActivityNet, UCF-101, and HMDB-51.  
-**If you want to classify your videos or extract video features of them using our pretrained models,
-use [this code](https://github.com/kenshohara/video-classification-3d-cnn-pytorch).**
-
-**The Torch (Lua) version of this code is available [here](https://github.com/kenshohara/3D-ResNets).**  
-Note that the Torch version only includes ResNet-18, 34, 50, 101, and 152.
-
-## Citation
-
-If you use this code or pre-trained models, please cite the following:
-
-```bibtex
-@inproceedings{hara3dcnns,
-  author={Kensho Hara and Hirokatsu Kataoka and Yutaka Satoh},
-  title={Can Spatiotemporal 3D CNNs Retrace the History of 2D CNNs and ImageNet?},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  pages={6546--6555},
-  year={2018},
-}
+This is the PyTorch code for the video-based reconition 
 ```
 
 ## Pre-trained models
