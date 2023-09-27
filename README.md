@@ -6,15 +6,14 @@ Our paper "Various frameworks for integrating image and video streams for spatio
 
 ## Summary
 
-This is the PyTorch code for the video-based reconition 
-```
+This is the PyTorch code for the video-based recognition 
 
 ## Pre-trained models
 
-
+```
 resnet-101-kinetics.pth: --model resnet --model_depth 101 --resnet_shortcut B
 
-that fine-tuned models on UCF-101 and HMDB-51
+** that fine-tuned models on UCF-101 and HMDB-51
 ```
 
 ### preparing the model on datasets for video-based recognition 
@@ -40,10 +39,10 @@ python utils/ucf101_json.py annotation_dir_path
 ```
 
 ### HMDB-51
-
+```
 * Download videos and train/test splits [here](http://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/).
 * Convert from avi to jpg files using ```utils/video_jpg_ucf101_hmdb51.py```
-
+```
 ```bash
 python utils/video_jpg_ucf101_hmdb51.py avi_video_directory jpg_video_directory
 ```
